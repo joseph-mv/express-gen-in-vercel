@@ -39,7 +39,7 @@ var state={
 
 
 module.exports.connect = async function(done){
-    const uri = "mongodb+srv://josephmv43:Adholokam$1042@josephmv.hnlelvv.mongodb.net/?retryWrites=true&w=majority&appName=josephMV"
+    const uri = "mongodb+srv://josephmv43:lm30&rs45@cluster0.ji4zehg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     // const uri=process.env.mongo_uri
     const client = new MongoClient(uri, {
         serverApi: {

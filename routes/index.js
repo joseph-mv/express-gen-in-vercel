@@ -8,12 +8,8 @@ router.get('/', function (req, res, next) {
   productHelper.productList().then(async (products) => {
     console.log(products)
    
-  
-    
     res.render('index', { products})
-   
-   
-   
+  
     
   })
 });
